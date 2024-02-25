@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+h1 {
+  font-size: 9vw;
+  font-weight: 700;
+  font-style: bold;
+  text-align: center;
+  color: #FF6664;
+}
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  div {
+    margin: 2%;
+    padding: 2%;
+  }
+}
+li {
+  font-size: 15px;
+  list-style-image: url(/assets/logo.svg);
+}
+span, li {
+  color: #FF6664;
+  font-style: bold;
+  font-weight: 700;
+
+}
+p {
+  font-size: 15px;
+  text-align: justify;
+  
+}
+div {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 5%;
+  padding: 2%;
+  padding: 3% 5% 3% 5%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ddd;
+  opacity: 1;
+  background-image: radial-gradient(#97a9fc 1.25px, #faf2f2 1.25px);
+  background-size: 25px 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #FF6664;
+
+  font-style: bold;
+  font-weight: 700;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FF6664;
+  color: white;
+  text-align: center;
+}
