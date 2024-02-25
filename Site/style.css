@@ -64,11 +64,11 @@ a {
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  display: flex;
+  justify-content: center;
   background-color: #FF6664;
   color: white;
   text-align: center;
+  margin: auto;
+  height: 4rem;
 }
